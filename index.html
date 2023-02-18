@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ejercicios y Evaluaciones para Física General: Fenómenos electromagnéticos </title>
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("code_electromagnetism.jpg");
+color: black;
+}
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>Fenómenos electromagnéticos</h1>
+</div>
+<form id="form1">
+
+
+<h1>Presentación</h1>
+<p>Estos ejercicios tienen como finalidad apoyar a estudiantes del primer año universitario en un curso de Física General. Puede servir también como apoyo para recordar y reforzar los conocimientos de física adquiridos previamente en el nivel de Bachillerato.</p>
+
+<p>Esta serie de ejercicios corresponde a la unidad 'Fenómenos electromagnéticos'. </p>
+
+<p>Autor: Juan José Jiménez Torres </p>
+
+
+<p> Los ejercicios y sus respectivas figuras, se encuentran basados en ejercicios planteados en distintas fuentes bibliográficas como los textos de Schad (1996), Resnick y Halliday (1981), Tippens (2001), Benson (1999, 1991) y Hewitt (1999). Estos ejercicios de física también fueron empleados para el trabajo que desarrollé en Jiménez-Torres (2006). </p>
+
+
+<A HREF="https://arxiv.org/abs/2302.08006"> Artículo publicado en arXiv: Physics Education (physics.ed-ph) </A>
+
+
+
+
+
+
+<h2>1) ¿Qué acción realizan las cargas positivas? </h2>
+<label for="sub_string"><input type="radio" name="p1" value="0" id="sub_string"/> a) Siempre atraen a otras cargas positivas </label>
+<label for="sub_join"><input type="radio" name="p1" value="10" id="sub_join"/> b) Siempre repelen a otras cargas positivas </label>
+<label for="sub_info"><input type="radio" name="p1" value="0" id="sub_info" />  c) Atraen ciertas cargas positivas y repelen a ciertas cargas positivas </label>
+<label for="sub_condition"><input type="radio" name="p1" value="0" id="sub_condition" /> d) No ejercen fuerzas sobre cargas negativas </label>
+<label for="sub_condition"><input type="radio" name="p1" value="0" id="sub_condition" /> e) Repelen ciertas cargas positivas y atraen a ciertas cargas negativas  </label>
+
+
+<h2>2)La ley de Coulomb describe la fuerza electrostática entre dos objetos cargados. Esta fuerza electrostática depende de </h2>
+<label for="sub_string"><input type="radio" name="p3" value="0" id="sub_string"/> a) La carga eléctrica de los cuerpos </label>
+<label for="sub_join"><input type="radio" name="p3" value="0" id="sub_join"/> b) Las cargas eléctricas y masa de ambos cuerpos </label>
+<label for="sub_info"><input type="radio" name="p3" value="10" id="sub_info" />  c) Las cargas eléctricas de ambos cuerpos y de la distancia entre los cuerpos </label>
+<label for="sub_condition"><input type="radio" name="p3" value="0" id="sub_condition" /> d) Las cargas eléctricas y masas de ambos cuerpos, y de la distancia entre los cuerpos </label>
+<label for="sub_condition"><input type="radio" name="p3" value="0" id="sub_condition" /> e) Solo de la distancia entre los cuerpos  </label>
+
+<h2>3)Los metales son buenos conductores de la electricidad porque. </h2>
+<label for="sub_string"><input type="radio" name="p4" value="0" id="sub_string"/> a) Los átomos de los metales tienen más electrones circulando su núcleo que los que no son metales </label>
+<label for="sub_join"><input type="radio" name="p4" value="10" id="sub_join"/> b) Los átomos de los metales tienen uno o más electrones ligeramente ligados, los cuales pueden moverse fácilmente a través del metal </label>
+<label for="sub_info"><input type="radio" name="p4" value="0" id="sub_info" />  c) Los átomos de los metales tienen muchos protones cargados positivamente en su núcleo </label>
+<label for="sub_condition"><input type="radio" name="p4" value="0" id="sub_condition" /> d) Algunos átomos de metales están cargados y se pueden mover entre los otros átomos del metal </label>
+<label for="sub_condition"><input type="radio" name="p4" value="0" id="sub_condition" /> e) Los metales son buenos conductores de calor  </label>
+
+
+<h2>4) Tanto la fuerza gravitacional y la fuerza electrostática son leyes del cuadrado inverso que envuelven la interacción de dos cuerpos. </h2>
+<label for="sub_string"><input type="radio" name="p5" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p5" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>5)Dos cargas eléctricas están separadas por 20 cm, y existe una fuerza electrostática mutua de 1.8 N entre ellas. ¿Cuál sería la fuerza electrostática entre las cargas si la distancia fuera incrementada a 60 cm?. </h2>
+<label for="sub_string"><input type="radio" name="p7" value="0" id="sub_string"/> a) 1.8 N </label>
+<label for="sub_join"><input type="radio" name="p7" value="0" id="sub_join"/> b) 0.45 N </label>
+<label for="sub_info"><input type="radio" name="p7" value="10" id="sub_info" />  c) 0.2 N </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> d) 0.11 N </label>
+<label for="sub_condition"><input type="radio" name="p7" value="0" id="sub_condition" /> e) 0.07 N  </label>
+
+
+
+
+<h2>6)Cuando un electrón acelera en respuesta a un campo eléctrico, ¿qué tipo de energía adquiere el electrón?. </h2>
+<label for="sub_string"><input type="radio" name="p8" value="0" id="sub_string"/> a) Energía potencial </label>
+<label for="sub_join"><input type="radio" name="p8" value="10" id="sub_join"/> b) Energía cinética  </label>
+<label for="sub_info"><input type="radio" name="p8" value="0" id="sub_info" />  c) Energía térmica </label>
+<label for="sub_condition"><input type="radio" name="p8" value="0" id="sub_condition" /> d) Ninguna energía, ya que el electrón no gana o pierde su carga </label>
+<label for="sub_condition"><input type="radio" name="p8" value="0" id="sub_condition" /> e) Energía química  </label>
+
+
+
+<h2>7)El voltio es la unidad estándar de . </h2>
+<label for="sub_string"><input type="radio" name="p9" value="0" id="sub_string"/> a) Corriente eléctrica </label>
+<label for="sub_join"><input type="radio" name="p9" value="0" id="sub_join"/> b) Resistencia eléctrica </label>
+<label for="sub_condition"><input type="radio" name="p9" value="10" id="sub_condition" /> c) Diferencia de potencial eléctrica </label>
+<label for="sub_condition"><input type="radio" name="p9" value="0" id="sub_condition" /> d) Potencia eléctrica  </label>
+
+<h2>8)La ley de Ohm corresponde a una relación entre </h2>
+<label for="sub_string"><input type="radio" name="p10" value="0" id="sub_string"/> a) Fuerzas eléctricas y magnéticas </label>
+<label for="sub_join"><input type="radio" name="p10" value="0" id="sub_join"/> b) Carga eléctrica y corriente </label>
+<label for="sub_info"><input type="radio" name="p10" value="0" id="sub_info" />  c) Potencia eléctrica y energía </label>
+<label for="sub_condition"><input type="radio" name="p10" value="10" id="sub_condition" /> d) Corriente eléctrica, voltaje y resistencia </label>
+<label for="sub_condition"><input type="radio" name="p10" value="0" id="sub_condition" /> e) Carga eléctrica y resistencia  </label>
+
+<h2>9)Si el voltaje a través de un resistor se duplica, entonces la corriente eléctrica a través del resistor será </h2>
+<label for="sub_string"><input type="radio" name="p11" value="10" id="sub_string"/> a) El doble de la inicial </label>
+<label for="sub_join"><input type="radio" name="p11" value="0" id="sub_join"/> b) El cuádruple de la inicial  </label>
+<label for="sub_info"><input type="radio" name="p11" value="0" id="sub_info" />  c) Se mantendrá igual que la inicial </label>
+<label for="sub_condition"><input type="radio" name="p11" value="0" id="sub_condition" /> d) La mitad de la inicial  </label>
+<label for="sub_condition"><input type="radio" name="p11" value="0" id="sub_condition" /> e) La cuarta parte de la inicial  </label>
+
+
+<h2>10)La potencia eléctrica es. </h2>
+<label for="sub_string"><input type="radio" name="p12" value="0" id="sub_string"/> a) Equivalente a la energía eléctrica </label>
+<label for="sub_join"><input type="radio" name="p12" value="0" id="sub_join"/> b) Equivalente al voltaje </label>
+<label for="sub_info"><input type="radio" name="p12" value="0" id="sub_info" />  c) El voltaje dividido por la corriente </label>
+<label for="sub_condition"><input type="radio" name="p12" value="0" id="sub_condition" /> d) Equivalente a la corriente </label>
+<label for="sub_condition"><input type="radio" name="p12" value="10" id="sub_condition" /> e) La tasa de cambio mediante la cual la energía eléctrica es consumida  </label>
+
+<h2>11)Las líneas de campo magnético que se forman alrededor de un imán indican </h2>
+<label for="sub_string"><input type="radio" name="p13" value="0" id="sub_string"/> a) La dirección de un campo magnético en puntos alrededor del imán </label>
+<label for="sub_join"><input type="radio" name="p13" value="0" id="sub_join"/> b) La intensidad de un campo magnético en puntos alrededor del imán </label>
+<label for="sub_info"><input type="radio" name="p13" value="10" id="sub_info" />  c) La intensidad y dirección del campo magnético en varios puntos </label>
+<label for="sub_condition"><input type="radio" name="p13" value="0" id="sub_condition" /> d) La intensidad y en algunas ocasiones la dirección del campo magnético en varios puntos </label>
+<label for="sub_condition"><input type="radio" name="p13" value="0" id="sub_condition" /> e)  La dirección y en algunas ocasiones la dirección del campo magnético en varios puntos  </label>
+
+
+
+<h2>12)Con relación a la fuerza de Lorentz, un campo magnético no ejerce fuerza sobre </h2>
+<label for="sub_string"><input type="radio" name="p15" value="0" id="sub_string"/> a) Una corriente eléctrica </label>
+<label for="sub_join"><input type="radio" name="p15" value="0" id="sub_join"/> b) Un imán  </label>
+<label for="sub_info"><input type="radio" name="p15" value="10" id="sub_info" />  c) Una carga eléctrica estacionaria </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> d) Un material ferromagnético </label>
+<label for="sub_condition"><input type="radio" name="p15" value="0" id="sub_condition" /> e) Una carga eléctrica en movimiento  </label>
+
+<h2>13)Un transformador no trabaja con corriente directa porque. </h2>
+<label for="sub_string"><input type="radio" name="p16" value="0" id="sub_string"/> a) Ninguna corriente directa puede fluir a través de la bobina primaria  </label>
+<label for="sub_join"><input type="radio" name="p16" value="0" id="sub_join"/> b) Ningún campo magnético es producido por corriente directa en la bobina primaria </label>
+<label for="sub_info"><input type="radio" name="p16" value="10" id="sub_info" />  c) Solamente campos magnéticos variables pueden inducir corriente </label>
+<label for="sub_condition"><input type="radio" name="p16" value="0" id="sub_condition" /> d) Las líneas de campo magnético escapan del núcleo de hierro cuando el campo magnético producido por el primario es constante </label>
+
+
+
+<h2>14)De acuerdo a los ecuaciones de Maxwell para las ondas electromagnéticas </h2>
+<label for="sub_string"><input type="radio" name="p18" value="10" id="sub_string"/> a) Los campos eléctrico y magnético se propagan a través del vacío a la velocidad de la luz </label>
+<label for="sub_join"><input type="radio" name="p18" value="0" id="sub_join"/> b) La presencia de un campo eléctrico siempre implica la presencia de un campo magnético </label>
+<label for="sub_info"><input type="radio" name="p18" value="0" id="sub_info" />  c) Los campos eléctrico y magnético son idénticos </label>
+<label for="sub_condition"><input type="radio" name="p18" value="0" id="sub_condition" /> d) Las líneas de campo magnético siempre apuntan en la misma dirección que las creadas por un campo eléctrico </label>
+
+<h2>15) Notando la fuerza ejercida sobre un objeto cargado en una determinada posición, se puede inferir que en ese punto del espacio existe un intenso campo eléctrico. </h2>
+<label for="sub_string"><input type="radio" name="p19" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p19" value="10" id="sub_join"/> Verdadero. </label>
+
+<h2>16)  Si un alambre que lleva una corriente eléctrica experimenta una fuerza, entonces podemos inferir que esa fuerza es debida a un campo magnético. </h2>
+<label for="sub_string"><input type="radio" name="p20" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p20" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>17)¿Qué es lo que transforman los transformadores?. </h2>
+<label for="sub_string"><input type="radio" name="p21" value="0" id="sub_string"/> a) Resistencia y potencia </label>
+<label for="sub_join"><input type="radio" name="p21" value="0" id="sub_join"/> b) Voltaje y resistencia </label>
+<label for="sub_info"><input type="radio" name="p21" value="0" id="sub_info" />  c) Corriente y resistencia </label>
+<label for="sub_condition"><input type="radio" name="p21" value="10" id="sub_condition" /> d) Corriente y voltaje </label>
+<label for="sub_condition"><input type="radio" name="p21" value="0" id="sub_condition" /> e) Potencia y voltaje   </label>
+
+
+
+<h2>18)¿Qué voltaje se necesita para producir una corriente eléctrica de 4 A en un resistor que disipa 24 W de energía térmica?. </h2>
+<label for="sub_string"><input type="radio" name="p23" value="0" id="sub_string"/> a) 96 V </label>
+<label for="sub_join"><input type="radio" name="p23" value="0" id="sub_join"/> b) 28 V </label>
+<label for="sub_info"><input type="radio" name="p23" value="0" id="sub_info" />  c) 20 V </label>
+<label for="sub_condition"><input type="radio" name="p23" value="10" id="sub_condition" /> d) 6 V </label>
+<label for="sub_condition"><input type="radio" name="p23" value="0" id="sub_condition" /> e) 0.17 V  </label>
+
+
+
+<h2>19)¿Cuál es la potencia eléctrica de un motor eléctrico que lleva una corriente eléctrica de 5 A cuando opera con un voltaje de 120 V?. </h2>
+<label for="sub_string"><input type="radio" name="p25" value="10" id="sub_string"/> a) 600 W </label>
+
+<label for="sub_join"><input type="radio" name="p25" value="0" id="sub_join"/> b) 125 W </label>
+<label for="sub_info"><input type="radio" name="p25" value="0" id="sub_info" />  c) 115 W </label>
+<label for="sub_condition"><input type="radio" name="p25" value="0" id="sub_condition" /> d) 24 W </label>
+<label for="sub_condition"><input type="radio" name="p25" value="0" id="sub_condition" /> e) 0.04 W  </label>
+
+
+
+<h2>20)La luz visible en el espectro electromagnético tiene longitudes de onda de alrededor de </h2>
+<label for="sub_string"><input type="radio" name="p27" value="0" id="sub_string"/> a) 1 km </label>
+<label for="sub_join"><input type="radio" name="p27" value="0" id="sub_join"/> b) 1 m </label>
+<label for="sub_info"><input type="radio" name="p27" value="0" id="sub_info" />  c) 1 mm </label>
+<label for="sub_condition"><input type="radio" name="p27" value="10" id="sub_condition" /> d) 1 μm </label>
+<label for="sub_condition"><input type="radio" name="p27" value="0" id="sub_condition" /> e) 1 nm  </label>
+
+<h2>21)La propiedad de las ondas de luz visible que determinan el fenómeno del color es </h2>
+<label for="sub_string"><input type="radio" name="p28" value="0" id="sub_string"/> a) Velocidad </label>
+<label for="sub_join"><input type="radio" name="p28" value="0" id="sub_join"/> b) Amplitud </label>
+<label for="sub_info"><input type="radio" name="p28" value="0" id="sub_info" />  c) Intensidad </label>
+<label for="sub_condition"><input type="radio" name="p28" value="10" id="sub_condition" /> d) Longitud de onda </label>
+<label for="sub_condition"><input type="radio" name="p28" value="0" id="sub_condition" /> e) Interferencia  </label>
+
+<h2>22)La radiación infrarroja en comparación con la luz roja visible </h2>
+<label for="sub_string"><input type="radio" name="p29" value="0" id="sub_string"/> a)Tiene una longitud de onda más pequeña que la de la luz roja  </label>
+<label for="sub_join"><input type="radio" name="p29" value="0" id="sub_join"/> b) Se mueve a través de la atmósfera de la tierra sin impedimento  </label>
+<label for="sub_info"><input type="radio" name="p29" value="0" id="sub_info" />  c) Tiene una frecuencia mayor que la de la luz roja </label>
+<label for="sub_condition"><input type="radio" name="p29" value="10" id="sub_condition" /> d) Tiene una frecuencia menor que la de la luz roja  </label>
+
+
+
+<h2>23) En la naturaleza existen sólo las cargas positivas. Decimos que en ausencia de una carga positiva, existe una carga negativa. </h2>
+<label for="sub_string"><input type="radio" name="p31" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p31" value="0" id="sub_join"/> Verdadero. </label>
+
+
+<h2>24)La unidad de masa del Sistema Internacional de Unidades (SI) es el kilogramo. ¿Cuál es la unidad de la carga eléctrica en el SI?. </h2>
+<label for="sub_string"><input type="radio" name="p32" value="0" id="sub_string"/> a) Ampere </label>
+<label for="sub_join"><input type="radio" name="p32" value="0" id="sub_join"/> b) Voltio </label>
+<label for="sub_info"><input type="radio" name="p32" value="0" id="sub_info" />  c) Ohm </label>
+<label for="sub_condition"><input type="radio" name="p32" value="10" id="sub_condition" /> d) Coulomb </label>
+<label for="sub_condition"><input type="radio" name="p32" value="0" id="sub_condition" /> e) Watt  </label>
+
+
+<h2>25)Seleccionar la opción que corresponde a la masa y carga del protón. </h2>
+<label for="sub_string"><input type="radio" name="p33" value="0" id="sub_string"/> a) 1.67 X 10<sup>-27</sup> kg; -1.6 X 10<sup>-19</sup> C </label>
+<label for="sub_join"><input type="radio" name="p33" value="10" id="sub_join"/> b) 1.67 X 10<sup>-27</sup> kg; +1.6 X 10<sup>-19</sup> C </label>
+<label for="sub_info"><input type="radio" name="p33" value="0" id="sub_info" />  c) 9.11 X 10<sup>-31</sup> kg; -1.6 X 10<sup>-19</sup> C </label>
+<label for="sub_condition"><input type="radio" name="p33" value="0" id="sub_condition" /> d) 9.11 X 10<sup>-31</sup> kg; +1.6 X 10<sup>-19</sup> C </label>
+
+
+
+
+
+<h2>26) Si se recogen electrones en los pies cuando son arrastrados al caminar sobre una alfombra, se adquiere una carga positiva. </h2>
+<label for="sub_string"><input type="radio" name="p36" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p36" value="0" id="sub_join"/> Verdadero. </label>
+
+
+<h2>27) Un electrón que se encuentra a una determinada distancia de una partícula cargada es atraído con una fuerza determinada. Si se duplica la distancia, entonces también se duplica la fuerza. </h2>
+<label for="sub_string"><input type="radio" name="p37" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p37" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+<h2>28) Las líneas de campo electrostático producidas por una carga positiva aislada, se prolongan hasta infinito. </h2>
+<label for="sub_string"><input type="radio" name="p39" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p39" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+<h2>29)Si existe un campo eléctrico de alrededor de 100 N/C dirigido verticalmente hacía abajo, ¿cuál es la fuerza eléctrica ejercida sobre un electrón? </h2>
+<label for="sub_string"><input type="radio" name="p40" value="10" id="sub_string"/> a) 1.6 X 10<sup>-17</sup> N dirección vertical positiva </label>
+<label for="sub_join"><input type="radio" name="p40" value="0" id="sub_join"/> b) 1.6 X 10<sup>-17</sup> N dirección vertical negativa </label>
+<label for="sub_info"><input type="radio" name="p40" value="0" id="sub_info" />  c) 1.6 X 10<sup>-21</sup> N dirección vertical positiva </label>
+<label for="sub_condition"><input type="radio" name="p40" value="0" id="sub_condition" /> d) 1.6 X 10<sup>-21</sup> N dirección vertical negativa </label>
+<label for="sub_condition"><input type="radio" name="p40" value="0" id="sub_condition" /> e) 1.6 X 10<sup>-17</sup> N  </label>
+
+
+
+<h2>30) Si una carga puntual de –5 μC se encuentra en el origen de un sistema de referencia, ¿cuánto vale la intensidad del campo eléctrico a una distancia de 2m?. </h2>
+<label for="sub_string"><input type="radio" name="p41" value="0" id="sub_string"/> a) 1.13 X 10<sup>10</sup> N/C </label>
+<label for="sub_join"><input type="radio" name="p41" value="10" id="sub_join"/> b) 1.13 X10<sup>4</sup> N/C </label>
+<label for="sub_info"><input type="radio" name="p41" value="0" id="sub_info" />  c) 2.25 X10<sup>10</sup> N/C </label>
+<label for="sub_condition"><input type="radio" name="p41" value="0" id="sub_condition" /> d) 2.25 X 10<sup>4</sup> N/C </label>
+<label for="sub_condition"><input type="radio" name="p41" value="0" id="sub_condition" /> e) 8.89 X 10<sup>-5</sup> N/C  </label>
+
+
+
+<h2>31)Una carga puntual Q1 = 20 μC se encuentra en la posición (-d, 0), y otra carga Q2 = -10 μC se encuentra en la posición (d, 0). ¿Cuál es el campo eléctrico resultante en el punto de coordenadas (x, y)? Tomar d = 1 m, y x = y = 2 m. </h2>
+<IMG SRC="42_ejercicio_elec.jpg" WIDTH=400 HEIGHT=313>
+<label for="sub_string"><input type="radio" name="p42" value="0" id="sub_string"/> a) (3.5 X 10<sup>3</sup> N/C, 8.6 X 10<sup>3</sup> N/C) </label>
+<label for="sub_join"><input type="radio" name="p42" value="10" id="sub_join"/> b) (3.5 X 10<sup>3</sup> N/C, -8.6 X 10<sup>3</sup> N/C) </label>
+<label for="sub_info"><input type="radio" name="p42" value="0" id="sub_info" />  c) (-3.5 X 10<sup>3</sup> N/C, 8.6 X 10<sup>3</sup> N/C) </label>
+<label for="sub_condition"><input type="radio" name="p42" value="0" id="sub_condition" /> d) (-3.5 X 10<sup>3</sup> N/C, -8.6 X 10<sup>3</sup> N/C) </label>
+
+
+
+
+
+<h2>32)¿Cuál es la unidad en el sistema internacional para la corriente eléctrica?. </h2>
+<label for="sub_string"><input type="radio" name="p45" value="0" id="sub_string"/> a) Volt </label>
+<label for="sub_join"><input type="radio" name="p45" value="10" id="sub_join"/> b) Ampere </label>
+<label for="sub_info"><input type="radio" name="p45" value="0" id="sub_info" />  c) Ohm </label>
+<label for="sub_condition"><input type="radio" name="p45" value="0" id="sub_condition" /> d) Watt </label>
+<label for="sub_condition"><input type="radio" name="p45" value="0" id="sub_condition" /> e) Coulomb  </label>
+
+
+<h2>33) Si una corriente de 1 A fluye a través de un alambre, entonces 1 electrón pasa por un punto dado en 1 s. </h2>
+<label for="sub_string"><input type="radio" name="p46" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p46" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+<h2>34) Seleccionar la opción que hace referencia a la conducción eléctrica. </h2>
+<label for="sub_string"><input type="radio" name="p48" value="10" id="sub_string"/> a) Para que se presente este tipo de conducción es necesaria la aplicación de una diferencia de potencial cruzada entre los extremos </label>
+<label for="sub_join"><input type="radio" name="p48" value="0" id="sub_join"/> b) Para que se presente este tipo de conducción es necesaria la existencia de una diferencia de temperatura entre los cuerpos </label>
+
+
+
+<h2>35)¿Cuál es la resistencia eléctrica de un sartén que consume 12 amperes de corriente cuando se conecta a un circuito con un voltaje de 120 volts?. </h2>
+<label for="sub_string"><input type="radio" name="p49" value="0" id="sub_string"/> a) 132 Ω </label>
+<label for="sub_join"><input type="radio" name="p49" value="0" id="sub_join"/> b) 108 Ω </label>
+<label for="sub_info"><input type="radio" name="p49" value="0" id="sub_info" />  c) 1440 Ω </label>
+<label for="sub_condition"><input type="radio" name="p49" value="10" id="sub_condition" /> d) 10 Ω </label>
+<label for="sub_condition"><input type="radio" name="p49" value="0" id="sub_condition" /> e) 0.10 Ω  </label>
+
+<h2>36)¿Cuánta corriente eléctrica consume una bombilla que tiene una resistencia de 100 ohms cuando se le aplica un voltaje de 50 volts?. </h2>
+<label for="sub_string"><input type="radio" name="p50" value="0" id="sub_string"/> a) 150 A </label>
+<label for="sub_join"><input type="radio" name="p50" value="0" id="sub_join"/> b) 50 A </label>
+<label for="sub_info"><input type="radio" name="p50" value="0" id="sub_info" />  c) 5000 A </label>
+<label for="sub_condition"><input type="radio" name="p50" value="0" id="sub_condition" /> d) 2 A </label>
+<label for="sub_condition"><input type="radio" name="p50" value="10" id="sub_condition" /> e) 0.5 A  </label>
+
+<h2>37)A medida que se conectan en serie más y más focos idénticos a una fuente de voltaje, ¿qué le ocurre a la intensidad luminosa de cada foco?. </h2>
+<label for="sub_string"><input type="radio" name="p51" value="0" id="sub_string"/> a) La intensidad luminosa se mantiene igual </label>
+<label for="sub_join"><input type="radio" name="p51" value="0" id="sub_join"/> b) La intensidad luminosa aumenta debido al aumento en la resistencia total del circuito </label>
+<label for="sub_info"><input type="radio" name="p51" value="10" id="sub_info" />  c) La intensidad luminosa disminuye debido a la disminución en la corriente del circuito </label>
+<label for="sub_condition"><input type="radio" name="p51" value="0" id="sub_condition" /> d) La intensidad luminosa aumenta debido al aumento del número de focos </label>
+<label for="sub_condition"><input type="radio" name="p51" value="0" id="sub_condition" /> e) La intensidad luminosa disminuye debido al aumento del número de focos  </label>
+
+
+
+<h2>38)A medida que se conectan en paralelo más y más focos idénticos a una fuente de voltaje, ¿qué le ocurre a la intensidad de cada foco?. </h2>
+<label for="sub_string"><input type="radio" name="p52" value="10" id="sub_string"/> a) La intensidad luminosa se mantiene igual debido a que todos los focos tienen el mismo voltaje </label>
+<label for="sub_join"><input type="radio" name="p52" value="0" id="sub_join"/> b) La intensidad luminosa disminuye debido a la disminución en la resistencia total del circuito </label>
+<label for="sub_info"><input type="radio" name="p52" value="0" id="sub_info" />  c) La intensidad luminosa disminuye debido a que la corriente en cada foco es menor que la corriente total en el circuito </label>
+<label for="sub_condition"><input type="radio" name="p52" value="0" id="sub_condition" /> d) La intensidad luminosa aumenta debido al aumento del número de focos </label>
+<label for="sub_condition"><input type="radio" name="p52" value="0" id="sub_condition" /> e) La intensidad luminosa disminuye debido al aumento del número de focos  </label>
+
+
+
+<h2>39)En el circuito que se muestra en la figura, todos los focos son idénticos y tienen la misma resistencia, ¿Cuál (es) de los focos consume la mayor cantidad de corriente, y por lo tanto, el (los) más brillante (s)?. </h2>
+<IMG SRC="53_ejercicio_elec.jpg" WIDTH=200 HEIGHT=260>
+<label for="sub_string"><input type="radio" name="p53" value="0" id="sub_string"/> a) El foco A </label>
+<label for="sub_join"><input type="radio" name="p53" value="0" id="sub_join"/> b) El foco B </label>
+<label for="sub_info"><input type="radio" name="p53" value="10" id="sub_info" />  c) El foco C </label>
+<label for="sub_condition"><input type="radio" name="p53" value="0" id="sub_condition" /> d) Los focos A y B </label>
+<label for="sub_condition"><input type="radio" name="p53" value="0" id="sub_condition" /> e) Los focos A, B y C  </label>
+
+
+<h2>40) Una carga eléctrica en reposo (inmóvil) genera un campo magnético. </h2>
+<label for="sub_string"><input type="radio" name="p54" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p54" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+
+<h2>41) Un alambre recto infinito lleva una corriente I, ¿cuál es el campo magnético a una distancia R?. </h2>
+<label for="sub_string"><input type="radio" name="p55" value="0" id="sub_string"/> a)  B = (μ<sub>0</sub> / 2π) I R </label>
+<label for="sub_join"><input type="radio" name="p55" value="10" id="sub_join"/> b) B = (μ<sub>0</sub> / 2π) I / R </label>
+<label for="sub_info"><input type="radio" name="p55" value="0" id="sub_info" />  c) B = (μ<sub>0</sub> / 2π) (I + R) </label>
+<label for="sub_condition"><input type="radio" name="p55" value="0" id="sub_condition" /> d) B = (μ<sub>0</sub> / 2π) (I  - R) </label>
+<label for="sub_condition"><input type="radio" name="p55" value="0" id="sub_condition" /> e) B = (μ<sub>0</sub> / 2π) R / I  </label>
+
+
+
+<h2>42)¿Qué forma tiene el campo magnético que rodea a un alambre recto que transporta corriente?. </h2>
+<label for="sub_string"><input type="radio" name="p56" value="0" id="sub_string"/> a) Cuadrada </label>
+<label for="sub_join"><input type="radio" name="p56" value="10" id="sub_join"/> b) Circular </label>
+<label for="sub_info"><input type="radio" name="p56" value="0" id="sub_info" />  c) Triangular </label>
+<label for="sub_condition"><input type="radio" name="p56" value="0" id="sub_condition" /> d) Líneas rectas </label>
+<label for="sub_condition"><input type="radio" name="p56" value="0" id="sub_condition" /> e) Elipsoidal  </label>
+
+
+<h2>43) La densidad de las líneas de campo en un alambre recto que lleva una corriente, disminuye con la distancia al alambre. </h2>
+<label for="sub_string"><input type="radio" name="p57" value="0" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p57" value="10" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+<h2>44) La fuerza magnética por unidad de longitud entre dos alambres paralelos que llevan corrientes eléctricas y separados por una distancia, es atractiva si las corrientes eléctricas tienen direcciones opuestas. </h2>
+<label for="sub_string"><input type="radio" name="p59" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p59" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>45)Dos alambres rectos y largos llevan corrientes con las magnitudes y direcciones que se muestran en la figura. El punto representa una corriente saliendo de la página y la cruz representa una corriente eléctrica entrando a la página. ¿Cuál es la fuerza por unidad de longitud entre estos alambres?. </h2>
+<IMG SRC="60_ejercicio_elec.jpg" WIDTH=400 HEIGHT=256>
+<label for="sub_string"><input type="radio" name="p60" value="0" id="sub_string"/> a) 9.6 X 10<sup>-5</sup> N, fuerza atractiva </label>
+<label for="sub_join"><input type="radio" name="p60" value="10" id="sub_join"/> b) 9.6 X 10<sup>-5</sup> N, fuerza repulsiva </label>
+<label for="sub_info"><input type="radio" name="p60" value="0" id="sub_info" />  c) 9.6 X 10<sup>-7</sup> N, fuerza atractiva </label>
+<label for="sub_condition"><input type="radio" name="p60" value="0" id="sub_condition" /> d) 9.6 X 10<sup>-7</sup> N, fuerza repulsiva </label>
+<label for="sub_condition"><input type="radio" name="p60" value="0" id="sub_condition" /> e) 76 N, fuerza repulsiva  </label>
+
+
+
+<h2>46)La figura muestra dos situaciones diferentes, en donde un imán en movimiento respecto a un anillo induce una corriente en el anillo. De acuerdo a la dirección de la corriente en el anillo, y a la posición del imán, ¿en qué dirección se está moviendo el imán respecto al anillo de alambre?  </h2>
+<IMG SRC="63_ejercicio_elec.jpg" WIDTH=300 HEIGHT=234>
+<label for="sub_string"><input type="radio" name="p63" value="0" id="sub_string"/> a) 1: polo norte alejándose del anillo; 2: polo norte alejándose del anillo </label>
+<label for="sub_join"><input type="radio" name="p63" value="0" id="sub_join"/> b) 1: polo norte alejándose del anillo; 2: polo norte acercándose al anillo </label>
+<label for="sub_info"><input type="radio" name="p63" value="10" id="sub_info" />  c) 1: polo norte acercándose al anillo; 2: polo norte alejándose del anillo </label>
+<label for="sub_condition"><input type="radio" name="p63" value="0" id="sub_condition" /> d) 1: polo norte acercándose al anillo; 2: polo norte acercándose al anillo </label>
+<label for="sub_condition"><input type="radio" name="p63" value="0" id="sub_condition" /> e) 1: polo norte en reposo; 2: polo norte en reposo  </label>
+
+
+
+
+
+
+<h2>47)Un imán que se introduce en una bobina de alambre induce voltaje en ella. ¿Qué efecto se produce cuando un imán se introduce en una bobina que tiene más espiras, si el flujo a través de cada espira es el mismo?. </h2>
+<label for="sub_string"><input type="radio" name="p64" value="0" id="sub_string"/> a) Disminuye el voltaje inducido, proporcionalmente al número de espiras </label>
+<label for="sub_join"><input type="radio" name="p64" value="0" id="sub_join"/> b) Aumenta el voltaje inducido, inversamente proporcional al número de espiras </label>
+<label for="sub_info"><input type="radio" name="p64" value="0" id="sub_info" />  c) El voltaje inducido se mantiene igual </label>
+<label for="sub_condition"><input type="radio" name="p64" value="0" id="sub_condition" /> d) Disminuye el voltaje inducido, inversamente proporcional al número de espiras </label>
+<label for="sub_condition"><input type="radio" name="p64" value="10" id="sub_condition" /> e) Aumenta el voltaje inducido, proporcionalmente al número de espiras  </label>
+
+
+
+<h2>48) En un generador eléctrico simple, se induce voltaje continuo en la espira en rotación del generador. </h2>
+<label for="sub_string"><input type="radio" name="p65" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p65" value="0" id="sub_join"/> Verdadero. </label>
+
+<h2>49) En un generador eléctrico simple, el flujo magnético a través de la espira se mantiene constante todo el tiempo. </h2>
+<label for="sub_string"><input type="radio" name="p66" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p66" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+<h2>50)¿Cuánto tiempo tarda la luz en viajar del Sol a la Tierra? La distancia desde la Tierra al Sol es igual a una unidad astronómica = 1 AU = 149597900 Km. </h2>
+<label for="sub_string"><input type="radio" name="p71" value="0" id="sub_string"/> a) 0.002 s </label>
+<label for="sub_join"><input type="radio" name="p71" value="0" id="sub_join"/> b) 0.499 s </label>
+<label for="sub_info"><input type="radio" name="p71" value="0" id="sub_info" />  c) 2 s </label>
+<label for="sub_condition"><input type="radio" name="p71" value="10" id="sub_condition" /> d) 499 s </label>
+<label for="sub_condition"><input type="radio" name="p71" value="0" id="sub_condition" /> e) 4.49X10<sup>19</sup> s  </label>
+
+
+
+<h2>51) La rapidez de las ondas electromagnéticas de alta frecuencia es mayor que la de las ondas electromagnéticas de baja frecuencia. </h2>
+<label for="sub_string"><input type="radio" name="p72" value="10" id="sub_string"/> Falso. </label>
+<label for="sub_join"><input type="radio" name="p72" value="0" id="sub_join"/> Verdadero. </label>
+
+
+
+
+
+
+<h2>52)¿Cuál es la expresión matemática que proporciona la energía incidente normal en un área A en el tiempo Δt de una onda electromagnética? S representa la intensidad de la onda electromagnética y ΔU la energía incidente normalmente. </h2>
+<label for="sub_string"><input type="radio" name="p73" value="0" id="sub_string"/> a) ΔU = A S / Δt </label>
+<label for="sub_join"><input type="radio" name="p73" value="10" id="sub_join"/> b) ΔU = A S Δt </label>
+<label for="sub_info"><input type="radio" name="p73" value="0" id="sub_info" />  c) ΔU = Δt / A S </label>
+<label for="sub_condition"><input type="radio" name="p73" value="0" id="sub_condition" /> d) ΔU = A Δt / S </label>
+<label for="sub_condition"><input type="radio" name="p73" value="0" id="sub_condition" /> e) ΔU = S Δt / A  </label>
+
+
+
+<h2>53)Una estación de radio transmite una señal de 10 KW a una frecuencia de 100 MHz. Emite como una fuente puntual. A una distancia de 1 km de la antena la intensidad tiene un valor de 8X10<sup>-4</sup> W/m<sup>2</sup>. ¿Cuál es la energía incidente normal en una placa cuadrada de 10 cm de lado en 5 minutos?. </h2>
+<label for="sub_string"><input type="radio" name="p74" value="0" id="sub_string"/> a) 2.7X10<sup>-8</sup> J </label>
+<label for="sub_join"><input type="radio" name="p74" value="10" id="sub_join"/> b) 2.4X10<sup>-3</sup> J </label>
+<label for="sub_info"><input type="radio" name="p74" value="0" id="sub_info" />  c) 24 J </label>
+<label for="sub_condition"><input type="radio" name="p74" value="0" id="sub_condition" /> d) 3.8X10<sup>3</sup> J </label>
+<label for="sub_condition"><input type="radio" name="p74" value="0" id="sub_condition" /> e) 3.8X10<sup>7</sup> J  </label>
+
+
+
+
+
+<h1><h1>→Fin de las preguntas</h1>
+
+<p>Antes de dar click en el botón para calificar, por favor revise que todas sus respuestas estén seleccionadas. 
+
+<p>En caso de que alguna o algunas preguntas queden sin responder, el sistema "borrará" todas las respuestas seleccionadas. Para corregir esta situación, es suficiente con regresar a la página dando click en el botón ← (regresar una página) y ahí estarán todas las opciones seleccionadas sin ningún problema, sin perderse y como habían sido seleccionadas.
+
+<p>Si es posible, guarde o tenga anotadas sus respuestas en un lugar seguro. </p>
+
+<button type="submit" value="Submit">Calificar</button>
+
+</form>
+
+
+<p>En escala de 0 a 10, la calificación es: <span id="grade">__</span></p> 
+<p id="grade2"></p>
+
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+              p1 = parseInt(document.querySelector('input[name = "p1"]:checked').value);
+	    p3 = parseInt(document.querySelector('input[name = "p3"]:checked').value);
+	    p4 = parseInt(document.querySelector('input[name = "p4"]:checked').value);
+	    p5 = parseInt(document.querySelector('input[name = "p5"]:checked').value);
+	    p7 = parseInt(document.querySelector('input[name = "p7"]:checked').value);
+	    p8 = parseInt(document.querySelector('input[name = "p8"]:checked').value);
+	    p9 = parseInt(document.querySelector('input[name = "p9"]:checked').value);
+	    p10 = parseInt(document.querySelector('input[name = "p10"]:checked').value);
+	    p11 = parseInt(document.querySelector('input[name = "p11"]:checked').value);
+	    p12 = parseInt(document.querySelector('input[name = "p12"]:checked').value);
+	    p13 = parseInt(document.querySelector('input[name = "p13"]:checked').value);
+	    p15 = parseInt(document.querySelector('input[name = "p15"]:checked').value);
+	    p16 = parseInt(document.querySelector('input[name = "p16"]:checked').value);
+	    p18 = parseInt(document.querySelector('input[name = "p18"]:checked').value);
+	    p19 = parseInt(document.querySelector('input[name = "p19"]:checked').value);
+	    p20 = parseInt(document.querySelector('input[name = "p20"]:checked').value);
+	    p21 = parseInt(document.querySelector('input[name = "p21"]:checked').value);
+	    p23 = parseInt(document.querySelector('input[name = "p23"]:checked').value);
+	    p25 = parseInt(document.querySelector('input[name = "p25"]:checked').value);
+	    p27 = parseInt(document.querySelector('input[name = "p27"]:checked').value);
+	    p28 = parseInt(document.querySelector('input[name = "p28"]:checked').value);
+	    p29 = parseInt(document.querySelector('input[name = "p29"]:checked').value);
+	    p31 = parseInt(document.querySelector('input[name = "p31"]:checked').value);
+	    p32 = parseInt(document.querySelector('input[name = "p32"]:checked').value);
+	    p33 = parseInt(document.querySelector('input[name = "p33"]:checked').value);
+	    p36 = parseInt(document.querySelector('input[name = "p36"]:checked').value);
+	    p37 = parseInt(document.querySelector('input[name = "p37"]:checked').value);
+	    p39 = parseInt(document.querySelector('input[name = "p39"]:checked').value);
+	    p40 = parseInt(document.querySelector('input[name = "p40"]:checked').value);
+	    p41 = parseInt(document.querySelector('input[name = "p41"]:checked').value);
+	    p42 = parseInt(document.querySelector('input[name = "p42"]:checked').value);
+	    p45 = parseInt(document.querySelector('input[name = "p45"]:checked').value);
+	    p46 = parseInt(document.querySelector('input[name = "p46"]:checked').value);
+
+	    p48 = parseInt(document.querySelector('input[name = "p48"]:checked').value);
+	    p49 = parseInt(document.querySelector('input[name = "p49"]:checked').value);
+	    p50 = parseInt(document.querySelector('input[name = "p50"]:checked').value);
+	    p51 = parseInt(document.querySelector('input[name = "p51"]:checked').value);
+	    p52 = parseInt(document.querySelector('input[name = "p52"]:checked').value);
+	    p53 = parseInt(document.querySelector('input[name = "p53"]:checked').value);
+	    p54 = parseInt(document.querySelector('input[name = "p54"]:checked').value);
+	    p55 = parseInt(document.querySelector('input[name = "p55"]:checked').value);
+	    p56 = parseInt(document.querySelector('input[name = "p56"]:checked').value);
+	    p57 = parseInt(document.querySelector('input[name = "p57"]:checked').value);
+	    p59 = parseInt(document.querySelector('input[name = "p59"]:checked').value);
+	    p60 = parseInt(document.querySelector('input[name = "p60"]:checked').value);
+	    p63 = parseInt(document.querySelector('input[name = "p63"]:checked').value);
+	    p64 = parseInt(document.querySelector('input[name = "p64"]:checked').value);
+	    p65 = parseInt(document.querySelector('input[name = "p65"]:checked').value);
+	    p66 = parseInt(document.querySelector('input[name = "p66"]:checked').value);
+	    p71 = parseInt(document.querySelector('input[name = "p71"]:checked').value);
+	    p72 = parseInt(document.querySelector('input[name = "p72"]:checked').value);
+	    p73 = parseInt(document.querySelector('input[name = "p73"]:checked').value);
+	    p74 = parseInt(document.querySelector('input[name = "p74"]:checked').value);
+
+
+
+
+
+
+
+	   result = (p1 + p3 + p4 + p5 + p7 + p8 + p9 + p10 + p11 + p12 + p13 + p15 + p16 + p18 + p19 + p20 + p21 + p23 + p25 + p27 + p28 + p29 + p31 + p32 + p33 + p36 + p37 + p39 + p40 + p41 + p42 + p45 + p46 + p48 + p49 + p50 + p51 + p52 + p53 + p54 + p55 + p56 + p57 + p59 + p60 + p63 + p64 + p65 + p66 + p71 + p72 + p73 + p74)/53;
+
+
+
+	document.getElementById("grade").innerHTML = result;
+
+ grading = [
+	   {score:00/53,feedback:"0 aciertos obtenidos. INSUFICIENTE"},
+	   {score:10/53,feedback:"1 acierto obtenido. INSUFICIENTE"},
+	   {score:20/53,feedback:"2 aciertos obtenidos. INSUFICIENTE"},
+	   {score:30/53,feedback:"3 aciertos obtenidos. INSUFICIENTE"},
+	   {score:40/53,feedback:"4 aciertos obtenidos. INSUFICIENTE"},
+	   {score:50/53,feedback:"5 aciertos obtenidos. INSUFICIENTE"},
+	   {score:60/53,feedback:"6 aciertos obtenidos. INSUFICIENTE"},
+	   {score:70/53,feedback:"7 aciertos obtenidos. INSUFICIENTE"},
+	   {score:80/53,feedback:"8 aciertos obtenidos. INSUFICIENTE"},
+	   {score:90/53,feedback:"9 aciertos obtenidos. INSUFICIENTE"},
+	   {score:100/53,feedback:"10 aciertos obtenidos. INSUFICIENTE"},
+	   {score:110/53,feedback:"11 aciertos obtenidos. INSUFICIENTE"},
+	   {score:120/53,feedback:"12 aciertos obtenidos. INSUFICIENTE"},
+	   {score:130/53,feedback:"13 aciertos obtenidos. INSUFICIENTE"},
+	   {score:140/53,feedback:"14 aciertos obtenidos. INSUFICIENTE"},
+	   {score:150/53,feedback:"15 aciertos obtenidos. INSUFICIENTE"},
+	   {score:160/53,feedback:"16 aciertos obtenidos. INSUFICIENTE"},
+	   {score:170/53,feedback:"17 aciertos obtenidos. INSUFICIENTE"},
+	   {score:180/53,feedback:"18 aciertos obtenidos. INSUFICIENTE"},
+	   {score:190/53,feedback:"19 aciertos obtenidos. INSUFICIENTE"},
+	   {score:200/53,feedback:"20 aciertos obtenidos. INSUFICIENTE"},
+	   {score:210/53,feedback:"21 aciertos obtenidos. INSUFICIENTE"},
+	   {score:220/53,feedback:"22 aciertos obtenidos. INSUFICIENTE"},
+	   {score:230/53,feedback:"23 aciertos obtenidos. INSUFICIENTE"},
+	   {score:240/53,feedback:"24 aciertos obtenidos. INSUFICIENTE"},
+	   {score:250/53,feedback:"25 aciertos obtenidos. INSUFICIENTE"},
+	   {score:260/53,feedback:"26 aciertos obtenidos. INSUFICIENTE"},
+	   {score:270/53,feedback:"27 aciertos obtenidos. INSUFICIENTE"},
+	   {score:280/53,feedback:"28 aciertos obtenidos. INSUFICIENTE"},
+	   {score:290/53,feedback:"29 aciertos obtenidos. INSUFICIENTE"},
+	   {score:300/53,feedback:"30 aciertos obtenidos. SUFICIENTE"},
+	   {score:310/53,feedback:"31 aciertos obtenidos. SUFICIENTE"},
+	   {score:320/53,feedback:"32 aciertos obtenidos. SUFICIENTE"},
+	   {score:330/53,feedback:"33 aciertos obtenidos. SUFICIENTE"},
+	   {score:340/53,feedback:"34 aciertos obtenidos. SUFICIENTE"},
+	   {score:350/53,feedback:"35 aciertos obtenidos. REGULAR"},
+	   {score:360/53,feedback:"36 aciertos obtenidos. REGULAR"},
+	   {score:370/53,feedback:"37 aciertos obtenidos. REGULAR"},
+	   {score:380/53,feedback:"38 aciertos obtenidos. REGULAR"},
+	   {score:390/53,feedback:"39 aciertos obtenidos. REGULAR"},
+	   {score:400/53,feedback:"40 aciertos obtenidos. BIEN"},
+	   {score:410/53,feedback:"41 aciertos obtenidos. BIEN"},
+	   {score:420/53,feedback:"42 aciertos obtenidos. BIEN"},
+	   {score:430/53,feedback:"43 aciertos obtenidos. BIEN"},
+	   {score:440/53,feedback:"44 aciertos obtenidos. BIEN"},
+	   {score:450/53,feedback:"45 aciertos obtenidos. BIEN"},
+	   {score:460/53,feedback:"46 aciertos obtenidos. MUY BIEN"},
+	   {score:470/53,feedback:"47 aciertos obtenidos. MUY BIEN"},
+	   {score:480/53,feedback:"48 aciertos obtenidos. MUY BIEN"},
+	   {score:490/53,feedback:"49 aciertos obtenidos. MUY BIEN"},
+	   {score:500/53,feedback:"50 aciertos obtenidos. MUY BIEN"},
+	   {score:510/53,feedback:"51 aciertos obtenidos. EXCELENTE"},
+	   {score:520/53,feedback:"52 aciertos obtenidos. EXCELENTE"},
+	   {score:530/53,feedback:"53 aciertos obtenidos. EXCELENTE"}
+	   ];
+
+
+
+for(i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback + "<br /> <br /> Respuestas Correctas: <br /> <br />  1: Hay dos tipos de carga eléctrica: positiva y negativa. Los cuerpos con cargas iguales se repelen uno de otro; los cuerpos con cargas distintas se atraen uno a otro. Por lo tanto las cargas positivas repelen a otras cargas positivas, como se indica en el inciso b). <br /> <br />  2: Dos cuerpos cargados ejercerán fuerzas electrostáticas mutuamente, que son inversamente proporcional al cuadrado de la distancia entre los cuerpos y directamente proporcional al producto de las cargas eléctricas, como se indica en el inciso c). <br /> <br />  3: Los materiales clasificados como conductores eléctricos tienen partículas cargadas (electrones) que pueden moverse libremente. En los aislantes eléctricos, las partículas cargadas se mueven con dificultad. En los materiales conductores de electricidad, los electrones pueden moverse fácilmente, transportando cargas. La opción correcta es el inciso b). <br /> <br />  4: Verdadero. Ambas leyes envuelven la interacción entre dos cuerpos puntuales. Ambas leyes son inversamente proporcional al cuadrado de la distancia que separa a los cuerpos. Además la fuerza gravitacional es directamente proporcional al producto de las masas de los cuerpos, mientras que la fuerza electrostática es directamente proporcional al producto de las cargas de los cuerpos. <br /> <br />  5: Por la relación del cuadrado inverso, triplicar la distancia entre las cargas eléctricas conduce a una fuerza electrostática que es 1/9 de la fuerza original, es decir 0.2 N, como se indica en el inciso c). <br /> <br />  6: Cuando un electrón se acelera en respuesta a un campo eléctrico, adquiere una energía en virtud de su movimiento, es decir, energía cinética, como se indica en el inciso b). Un electrón de masa m y carga q, en un campo eléctrico experimenta una fuerza F = qE. Por la segunda ley de Newton F = ma, su aceleración es entonces: a = qE/m. <br /> <br />  7: La unidad del sistema internacional de la diferencia de potencial eléctrica es el voltio, como se indica en el inciso c). Donde 1 V = 1 J/1 C. Corresponde a la cantidad de trabajo cuando una cantidad dada de carga se mueve a través de un campo eléctrico. <br /> <br />  8: La ley de Ohm establece que la cantidad de corriente es directamente proporcional al voltaje e inversamente proporcional a la resistencia eléctrica. Por tanto la ley de Ohm expresa una relación entre la corriente, el voltaje y la resistencia, como se indica en el inciso d). Su expresión matemática está dada por V = RI, (voltaje) = (resistencia)(corriente). <br /> <br />  9: De acuerdo a la ley de Ohm la corriente se puede conocer de la expresión I = V/R, si el voltaje se duplica entonces 2V/R = 2I, lo que significa que la corriente se duplica también como se indica en el inciso a). <br /> <br />  10: La potencia eléctrica es la tasa de cambio mediante la cual la energía potencial eléctrica es consumida en un momento determinado, como se indica en el inciso e). <br /> <br />  11: Las líneas de campo magnético alrededor de un imán indican  la intensidad y dirección del campo magnético en varios puntos, como se indica en el inciso c). Las líneas de campo magnético forman líneas cerradas debido a que no existen monopolos magnéticos. <br /> <br />  12: De acuerdo a la fuerza de Lorentz, la fuerza magnética sobre una carga eléctrica en movimiento es directamente proporcional al campo magnético y a la velocidad de la partícula. Una carga eléctrica en reposo carece de velocidad y por lo tanto no existe una fuerza magnética, un campo magnético no ejerce fuerza sobre una carga eléctrica estacionaria. La respuesta correcta es la del inciso c). <br /> <br />  13: Los transformadores son dispositivos electromagnéticos que funcionan por inducción electromagnética y que transforman un sistema de corrientes variables en uno o varios sistemas de corrientes variables de la misma frecuencia, pero de intensidad y voltaje diferente. La corriente alterna de la bobina primaria crea en el núcleo de hierro un campo magnético alterno que induce en la bobina secundaria un voltaje eléctrico. Una corriente directa en la bobina primaria no induce corriente en la bobina secundaria. La opción correcta es la del inciso c). <br /> <br />  14: Las ondas electromagnéticas se mueven a la velocidad de la luz, sin importar cuál es su frecuencia, la longitud de onda o la intensidad de la radiación. La razón se encuentra en el equilibrio entre los campos eléctricos y magnéticos que debe existir para que se puedan propagar en forma de ondas. Un campo eléctrico variable induce un campo magnético. El campo magnético variable responde induciendo un campo eléctrico. Las ecuaciones de Maxwell muestran que sólo hay una rapidez capaz de preservar este equilibrio de campos; la velocidad de la luz. La respuesta correcta es el inciso a). <br /> <br />  15: Verdadero, pues si un campo eléctrico existe en cierto punto en el espacio, se puede examinar su existencia notando la fuerza que ejerce sobre un objeto cargado. Una partícula cargada de masa m y carga q, en un campo eléctrico experimenta una fuerza F = qE. <br /> <br />  16: Verdadero, pues si un campo magnético existe en cierto punto en el espacio, podemos examinar su existencia notando la fuerza ejercida a un alambre que lleva una corriente eléctrica. La fuerza magnética sobre un alambre recto que lleva una corriente en un campo magnético es directamente proporcional a la corriente, al tamaño del alambre y al campo magnético. <br /> <br />  17: Los transformadores transforman corriente y voltaje, como se muestra en el inciso d). Una bobina primaria de un transformador funciona como un electroimán. Cuando la corriente fluye en la bobina primaria, las líneas de campo magnético que emana son guiadas a través de un núcleo de hierro hasta la bobina secundaria. <br /> <br />  18: Usando la ecuación P = VI, V = P/I = (24 W)/(4 A) = 6 V. La respuesta correcta es el inciso d). <br /> <br />  19: Usando la ecuación P = VI, P = (120 V)(5 A) = 600 W, como se indica en el inciso a). <br /> <br />  20: La luz visible pertenece a un rango de frecuencias del espectro electromagnético de entre 400 nm y 700 nm, por lo que el orden de magnitud  más próximo a este rango corresponde al de 1 μm, como lo indica en el inciso d). <br /> <br />  21: La anatomía de una onda electromagnética consiste de las siguientes características: velocidad, longitud de onda y amplitud. La luz visible pertenece a un rango de frecuencias del espectro electromagnético de entre 400 nm y 700 nm, dentro de este rango se encuentra la luz visible de diferentes colores; violeta (400-450 nm), azul (450-520 nm), verde (520-560 nm), amarillo (560-600 nm), anaranjado (600-625 nm) y rojo (625-700 nm). Así que el color de la luz visible depende de la longitud de onda como se indica en el inciso d). <br /> <br />  22: La región infrarroja empieza en 700 nm y se extiende hasta cerca de 1 mm, mientras que la luz roja pertenece a un rango desde 625 nm hasta 700 nm, por lo que la radiación infrarroja tiene una longitud de onda mayor que la de la luz roja, y por lo tanto tiene una menor frecuencia que la de la luz roja, por lo que la opción correcta corresponde al inciso d). <br /> <br />  23: Falso. Pues hay dos tipos de carga eléctrica en la naturaleza, la positiva y la negativa. <br /> <br />  24: Las propiedades de la materia pueden ser cuantificadas en términos de uno o varios de los siguientes conceptos básicos: masa, longitud, tiempo y carga eléctrica. Esto significa que la carga eléctrica es una propiedad fundamental. La unidad base del SI de carga eléctrica es el Coulomb, como se indica en el inciso d). <br /> <br />  25: La carga de un electrón y un protón tienen el mismo valor, sólo que la carga del electrón es negativa, mientras que la del protón es positiva. El valor de la masa de un protón y un neutrón es el mismo, mientras que el electrón tiene una masa casi 1800 veces menor que cualquiera de los protones o neutrones. La opción correcta es el inciso b). <br /> <br />  26: Falso, pues después de arrastrar los pies se tienen más electrones, así que se adquiere una carga negativa (y la alfombra adquiere carga positiva). <br /> <br />  27: Falso. Pues, como la ley de Coulomb es una ley del inverso del cuadrado, entonces si la distancia se duplica, la fuerza se reduce a la cuarta parte. <br /> <br />  28: Verdadero. Las líneas de campo electrostático empiezan en las cargas positivas y terminan en las cargas negativas. Mientras que las líneas correspondientes a una sola carga positiva aislada se prolongan hasta el infinito. Las líneas de campo eléctrico son útiles para visualizar la dirección del campo y la intensidad o magnitud del campo, que es proporcional al número de líneas que pasan por un área unitaria perpendicular a las líneas. <br /> <br />  29: La magnitud de la fuerza eléctrica es FE = q E = -e E = -(1.6 X 10<sup>-19</sup> C)(100 N/C) k = -1.6 X 10<sup>-17</sup> N k, es decir 1.6 X 10<sup>-17</sup> N dirección vertical positiva. La opción correcta es el inciso a). <br /> <br />  30: En este ejercicio se solicita conocer la intensidad (magnitud) del campo eléctrico a 2 m de distancia de la carga de –5 μC. Sustituimos los valores dados en la expresión E = kq/r2 = (9 X 10<sup>9</sup> N m<sup>2</sup>/C<sup>2</sup>)(5 x 10<sup>-6</sup> C)/(2 m)<sup>2</sup> = 1.13 x 10<sup>4</sup> N/C. La opción correcta corresponde al inciso b). <br /> <br />  31: En la figura se muestran las cargas, y los componentes vectoriales de los campos eléctricos en un sistema de coordenadas. Las distancias son ((x + d)<sup>2</sup> + y<sup>2</sup>)<sup>1/2</sup> = r1 = (13)<sup>1/2</sup> = 3.6 m    y    ((x – d)<sup>2</sup> + y<sup>2</sup>)<sup>1/2</sup> = r2 = (5)<sup>1/2</sup> = 2.2 m. Las magnitudes de los campos son E1 = kQ1/r1 = 1.4 X 10<sup>4</sup> N/C   y   E2 = kQ2/r2 = 1.8 X 10<sup>4</sup> N/C. Los componentes del campo resultante E = E1+ E2 son Ex = E1x + E2x = E1 cos θ1 – E2 cos θ2, Ey = E1y + E2y = E1 sen θ1 – E2 sen θ2. En la figura se muestra que sen θ1 = y/r1 = 2/3.6 = 0.56, sen θ2 = y/r2 = 2/2.2 = 0.91, cos θ1 = (x+d)/r1 = 3/3.6 = 0.83, cos θ2 = (x-d)/r2 = 1/2.2 = 0.45. Sustituyendo tenemos Ex = 3.5 X 10<sup>3</sup> N/C y Ey = -8.6 X 10<sup>3</sup> N/C. Por lo tanto E = 3.5 X 10<sup>3</sup> i – 8.6 X 10<sup>3</sup> j N/C. La opción correcta es el inciso b). <br /> <br />  32: La corriente eléctrica es el flujo de carga eléctrica que se produce cuando existe una diferencia de potencial entre los extremos de un conductor eléctrico. El ampere es la unidad en el sistema internacional para la corriente eléctrica como se muestra en el inciso b). <br /> <br />  33: Falso. Según la definición de corriente 1 Ampere se refiere a que 1 Coulomb de electrones pasa por un punto en un circuito en un tiempo de 1 segundo. Ya que la carga del electrón es de e = 1.6X10<sup>-19</sup> C, el número de electrones es (1 C)/(1.6 X 10<sup>-19</sup> C) = 6.3X10<sup>18</sup> electrones. <br /> <br />  34: Los electrones participan en la conducción eléctrica. El argumento esencial del ohm (unidad de la resistencia eléctrica) es la razón de flujo = mecanismo impulsor / resistencia. Se aplica tanto al flujo de carga como al flujo de calor o al de fluido. Una corriente eléctrica fluye a través de un alambre cuando se aplica una diferencia de potencial cruzada entre los extremos. Y el calor es la transferencia de energía como consecuencia de una diferencia de temperatura entre los cuerpos. Por lo que la opción correcta es el inciso a). <br /> <br />  35: La resistencia está dada por resistencia = voltaje/ corriente. Sustituyendo valores R = (120 volts)/ (12 amperes) = 10 Ω. La opción correcta está en el inciso d). <br /> <br />  36: La corriente eléctrica consumida es de 0.5 A, como se muestra en el inciso e). Corriente = voltaje / resistencia = (50 volts) /(100 ohms) = 0.5 A. <br /> <br />  37: En un circuito en serie, la corriente es la misma para todos los elementos. A medida que aumenta el número de focos en el circuito en serie, la resistencia total del circuito también aumenta, lo que origina una disminución en la corriente que fluye en el circuito, esta disminución de corriente origina que la intensidad luminosa en cada foco también disminuya. La opción correcta es el inciso c). <br /> <br />  38: En una conexión en paralelo todos los focos tienen el mismo voltaje. Y como los focos son idénticos, entonces también tienen la misma resistencia. De acuerdo a la ley de ohm, también tienen la misma corriente eléctrica, y con ello la intensidad luminosa es la misma para todos los focos, como se indica en el inciso a). <br /> <br />  39: Todos los focos tienen la misma resistencia R, y el voltaje de la fuente es V. La resistencia total de la rama donde se encuentran los focos A y B es 2R, y por lo tanto la resistencia total del circuito es (2/3) R. La corriente total es IT = V / ((2/3) R) = 3/2 V/R. La corriente en el foco C es IC = V / R, la corriente en la rama donde están los focos A y B es IAB = V / 2R, esta corriente es igual para los focos A y B, es decir, IAB = IA = IB. Por lo tanto IC > IAB = IA = IB, lo que indica que el foco C es el más brillante. La opción correcta es el inciso c). <br /> <br />  40: Falso, una carga eléctrica en reposo genera un campo eléctrico, mientras que una carga eléctrica en movimiento produce campos magnéticos. <br /> <br />  41: Recordar la expresión matemática del campo magnético a una distancia R, producido por un alambre largo y recto llevando una corriente I. La expresión es B = (μ<sub>0</sub> / 2π) I / R. La opción correcta es el inciso b). <br /> <br />  42: Un patrón de limaduras de hierro alrededor de un alambre recto que lleva corriente muestra círculos cuyos centros coinciden con el alambre recto. La opción correcta se muestra en el inciso b). <br /> <br />  43: Verdadero. Pues la intensidad del campo magnético generado por un alambre que lleva una corriente es directamente proporcional a la corriente e inversamente proporcional a la distancia al alambre. <br /> <br />  44: Falso. La fuerza magnética por unidad de longitud entre dos alambres paralelos que llevan corrientes y separados por una distancia es proporcional al producto de las corrientes e inversamente proporcional a la distancia que los separa. La fuerza es atractiva si las corrientes eléctricas tienen la misma dirección, y es repulsiva si las corrientes van en sentidos opuestos. <br /> <br />  45: La fuerza magnética por unidad de longitud entre los dos alambres paralelos que llevan corrientes I1 = 4 A e I2 = 12 A y separados por una distancia de 10 cm (0.1 m) está dada por la expresión F/L = μ<sub>0</sub> (4 A)(12 A)/ 2π (0.1 m) = 9.6 X 10<sup>-5</sup> N, y como las corrientes son opuestas la fuerza es repulsiva, como se indica en el inciso b). <br /> <br />  46: Cuando el polo norte del imán se mueve hacia el anillo, una corriente fluye en sentido opuesto a las manecillas de un reloj. Cuando el polo norte del imán se aleja del anillo, hay una en el sentido de las manecillas de un reloj. Por lo que la opción correcta es el inciso c). <br /> <br />  47: La ley de Faraday de la inducción electromagnética relaciona el voltaje inducido en una espira cerrada a razón de cambios de flujo a través de la espira: E = -N (ΔΦ/Δt), donde E = voltaje inducido, ΔΦ = cambio de flujo magnético durante un intervalo de tiempo Δt, y N = número de espiras. Por lo tanto, si aumenta el número de espiras, entonces también aumenta el voltaje inducido, y lo hace de manera proporcional al número de espiras, como se indica en el inciso e). <br /> <br />  48: Falso pues se induce un voltaje alternante en la espira en rotación de un generador. En un generador simple se induce un voltaje en la espira cuando se hace girar en un campo magnético. Al girar la espira cambia la magnitud y la dirección del voltaje inducido. Una rotación completa de la espira produce un ciclo completo de voltaje. <br /> <br />  49: Falso. Al girar la espira en el generador cambia el número de líneas de campo magnético que la espira encierra. Este número varía desde un máximo hasta un mínimo y de nuevo a un máximo. Si la espira gira con una velocidad angular constante en un campo magnético constante, la magnitud del voltaje inducido varía en forma sinusoidal con respecto al tiempo. <br /> <br />  50: La rapidez de la luz c es constante un valor constante. Por lo que de la ecuación, v = d/t, despejamos el tiempo t = d/c. Sustituyendo valores tenemos t = d/c = (149 597 900 Km)/(3X10<sup>8</sup> m/s) = (149 597 900 000 m)/(3X10<sup>8</sup> m/s) = 499 s = 8.31 minutos. La opción correcta es el inciso d). <br /> <br />  51: Falso. Las ecuaciones de Maxwell muestran que en las ondas electromagnéticas sólo existe una rapidez con la que se mueven, sin importar cuáles sean las frecuencias, la longitud de onda o la intensidad de la radiación. Todas las ondas electromagnéticas se mueven con la velocidad de la luz. <br /> <br />  52: Las ondas electromagnéticas transportan energía. La expresión matemática para la razón con que una onda electromagnética transporta energía podemos encontrarla de la siguiente expresión: S = (1/A)(ΔU/Δt), donde A es el valor del área, Δt es el intervalo de tiempo y S el valor de la potencia. De aquí se despeja a la energía: ΔU = A S Δt, como se indica en el inciso b). <br /> <br />  53: Recordar la expresión para la energía incidente normalmente en un área A en el tiempo Δt: ΔU = A S Δt, donde S es la intensidad de la antena. Sustituyendo valores tenemos ΔU = (0.01 m<sup>2</sup>)(8X10<sup>-4</sup> W/m<sup>2</sup>)(300 s) = 2.4X10<sup>-3</sup> J. El inciso b) es la opción correcta.";
+	  }
+	  }
+
+
+
+
+ document.getElementById("grade2").innerHTML = result2;
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+
+
+
+</script>
+
+
+</div>
+</body>
+</html>
+
+
+
+
